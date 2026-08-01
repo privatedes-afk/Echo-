@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Echo",
+    "slug": "echo",
+    "scheme": "echo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#E8DFFF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.echo"
+    },
+    "android": {
+      "package": "com.yourcompany.echo"
+    },
+    "plugins": ["expo-notifications"]
+  }
+}
